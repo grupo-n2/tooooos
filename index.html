@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="icon" href="img/logo-favicon.svg" type="logo-favicon.svg">
+  <title>Grupo 2</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#header">
+        <img src="img/logo.svg" alt="yoga-logo" width="63" height="63" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="#header">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-dark text-opacity-50" aria-current="page" href="#suscripcion">Suscripción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark text-opacity-50" href="#aplicacion">Aplicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark text-opacity-50" href="#comunidad">Comunidad</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ----------------carrousel------------ -->
+  <header id="header" class="header py-5 text-light">
+
+    <div id="postura" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#postura" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#postura" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#postura" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-1">Primera postura</h5>
+            <p class="h5 fw-light">La disciplina y la pureza deben venir desde dentro.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-1">Segunda postura</h5>
+            <p class="h5 fw-light">Conocerte a ti mismo es el comienzo de toda sabiduría.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="display-1">Tercer postura</h5>
+            <p class="h5 fw-light">No puedes controlar siempre lo que ocurre en el exterior, pero siempre puedes
+              controlar
+              lo que ocurre en el interior.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#yoga" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#postura" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <section id="beneficios" class=" text-light py-4">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="display-2 fw-bold" style="margin-top: 15px;">LOS BENEFICIOS DEL YOGA</h1>
+          <p class="h2 fw-light">El placer de conectar con tu cuerpo</p>
+          <p>El yoga no nos aleja de la realidad o de las responsabilidades de la vida diaria, sino que pone
+            nuestros pies firmes y resolutivamente en el terreno práctico de la experiencia. No trascendemos
+            nuestras vidas; volvemos a las vidas que hemos dejado atrás con la esperanza de algo mejor.</p>
+          <button id="btn1" type="button" class="btn btn-light">Suscribite</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------cards------------------ -->
+  <section id="suscripcion" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 id="titulo" class="display-4 text-center p-5">Todo el contenido incluido en tu suscripción</h2>
+          <hr>
+        </div>
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card1.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text text-black mt-3 fs-5 lh-2">Series</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card2.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text fs-5 mt-3 lh-2">10 estilos de yoga</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card3.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text fs-5 mt-3 lh-2">Calendario</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card4.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text fs-5 mt-3 lh-2">Clases en directo</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card5.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text fs-5 mt-3 lh-2">Meditación</p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-4 py-5 text-center">
+          <div class="card1">
+            <img src="img/Card6.jpg" class="card-img-top img-fluid" alt="card1">
+            <p class="card-text fs-5 mt-3 lh-2">Respiración</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- --------------------fin cards------------------ -->
+
+  <section id="aplicacion" class="mt-15 py-4">
+    <div class="container text-muted p-5">
+      <div class="row">
+        <div class="col-xl-6 col-md-12 col-sm-12 text-center text-lg-start">
+          <h1 id="practica" class="display-1 fw-light text-light lh-1">Practicá donde y cuando quieras.</h1>
+          <p class="py-3 text-light">¿Te vas a desconectar unos días fuera? Llevá contigo la aplicación y accedé desde
+            tus
+            dispositivos favoritos. Descargá tus clases para practicar sin conexión a internet.</p>
+          <button type="button" class="btn btn-secondary mb-3">Empezá prueba gratis</button>
+        </div>
+        <div class="col-xl-6">
+          <img src="img/Computadora.jpg" class="img-fluid" alt="computadora">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container col-xl-10 pt-5 py-5">
+    <div class="row">
+      <div class="col">
+        <h2 class="pb-2 text text-center fw-light lh-1 display-5">¿Qué es el yoga y para qué sirve? Beneficios, tipos y
+          posturas.</h2>
+        <div class="mb-3">
+          <p><strong>El yoga es una disciplina que viene de la India originada hace más de 5.000 años </strong>, que
+            engloba toda una filosofía de vida cuyo fin último es alcanzar el Samadhi o el estado de paz, nirvana,
+            liberación, felicidad…</p>
+          <p>Para ello, existen muchas técnicas, tipos de yoga en los que gracias a la combinación de asanas,
+            respiración, meditación, mantras, mudras, etc, vamos consiguiendo el <strong>equilibrio de nuestro cuerpo
+              con la mente.</strong></p>
+          <p>En occidente el yoga que es más conocido es el de las posturas de yoga, o el hatha yoga, del que derivan
+            todos los estilos dinámicos como el vinyasa, ashtanga, rocket, integral, power o jivamukti. Pero la realidad
+            es que el yoga engloba una filosofía muy profunda en el que las asanas son una parte pequeña.</p>
+          <p>Existen numerosos tipos de yoga, así como ejercicios, técnicas y posturas que nos ayudan a conseguir un
+            mayor control físico y mental, con grandes beneficios. <strong>El yoga es para todos</strong>: principiantes
+            o avanzados, niños o mayores, hombres y mujeres. </p>
+          <p>El yoga nos enseña a ser nosotros mismos desde la raíz y con el alma, aprendemos a vivir <strong>el aquí y
+              ahora </strong>con lo que necesitamos de verdad, disfrutamos, agradecemos, observamos, amamos, respetamos
+            y nos desprendemos de todo lo innecesario.</p>
+          <p>Desde nuestro lugar buscamos brindarte un acercamiento a los distintos tipos, para que, a través de
+            nuestras clases y rutinas puedas elegir cuál es el que te complementa.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------------video-------------- -->
+  <section>
+    <div class="container mt-3">
+      <div class="row text-center">
+        <div class="col-lg-12">
+          <div class="embed-responsive embed-responsive-16by9 ratio ratio-21x9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6W7bI9kU2so"
+              allowfullscreen></iframe>
+          </div>
+          <button id="btn2" class="btn btn-lg btn-secondary my-3 center fw-light fs-6">Accede a nuestro canal</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------fin video--------------- -->
+
+  <section id="ofertas">
+    <div class="container text-center text-dark py-5">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="fs-1 mb-3">
+            <i class="bi bi-plus"></i>
+          </div>
+          <h2>+600 clases de yoga y meditación</h2>
+          <p>De diferentes niveles, intesidades y duraciones. ¿Qué te parece practicar hoy?</p>
+        </div>
+        <div class="col">
+          <div class="fs-1 mb-3">
+            <i class="bi bi-emoji-smile"></i>
+          </div>
+          <h2>10 estilos de yoga</h2>
+          <p>Vinyasa, Hatha, FIT+Yoga, Yin Yoga... ¿No sabes cuál es mejor para vos? ¡Probalos en nuestra página y
+            descubrilo!</p>
+        </div>
+        <div class="col">
+          <div class="fs-1 mb-3">
+            <i class="bi bi-plus"></i>
+          </div>
+          <h2>+35 rutinas de práctica</h2>
+          <p>Para principiantes, avanzados, mejorar la flexibilidad, ponerse en forma, exprés, detox...¿Por cuál
+            empezas?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="comunidad" class="mt-15 py-4">
+    <div class="container text-muted py-5">
+      <div class="row">
+        <div class="col-xl-6 col-md-12 col-sm-12 text-center text-lg-start">
+          <h1 id="conecta" class="display-5 fw-light lh-1">Conecta con tu cuerpo, conecta con más personas.</h1>
+          <p class="py-2">Nuestra comunidad de yoga te está esperando. No esperes más para emprender este viaje
+            espiritual.</p>
+            <button type="button" class="btn btn-secondary mb-3">Suscribite</button>
+        </div>
+        <div class="col-xl-6">
+          <img src="img/comunidad.jpg" class="img-fluid" alt="computadora">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+  <div class="container py-4">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="display-4 fw-bold text-center p-4 text-light mb-1">¡Contactanos!</h2>
+            <p class="lead text-center text-light">Cualquier consulta, ¡no dudes en escribirnos!</p>
+        </div>
+        <form>
+          <div class="col-10 mx-auto my-2">
+            <label for="nombre" class="form-label fs-5 text-light">Nombre (*):</label>
+            <input type="text" class="form-control mt-1" id="nombre" placeholder="Completar nombre" required>
+          </div>
+  
+          <div class="col-10 mx-auto my-2">
+            <label for="apellido" class="form-label fs-5 text-light">Apellido (*):</label>
+            <input type="tex" class="form-control mt-1" id="apellido" placeholder="Completar apellido" required>
+          </div>
+          <div class="col-10 mx-auto my-2">
+            <label for="e-mail" class="form-label fs-5 text-light">Email (*):</label>
+            <input type="email" class="form-control mt-1" id="email" placeholder="Completar con correo" required>
+          </div>
+          <div class="col-10 mx-auto my-2">
+            <label for="telefono" class="form-label fs-5 text-light">Telefono:</label>
+            <input type="text" class="form-control" id="telefono" placeholder="Completar con telefono" require>
+          </div>
+          <div class="col-10 mx-auto my-2">
+            <label for="consulta-mensaje" class="form-label fs-5 text-light">Consulta / Mensaje:</label>
+            <textarea class="form-control" rows="3" placeholder="Dejanos tu mensaje" aria-describedby="maximos-caracteres"
+              maxlength="480"></textarea>
+            <div id="maximos-caraccteres" class="form-text">Máxima cantidad de caractéres 480</div>
+          </div>
+          <div class="col-10 mx-auto my-2">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label text-light" for="check">Acepto los terminos y condiciones</label>
+          </div>
+          <div class="col-10 mx-auto my-2">
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</section>
+
+  <footer id="piedepagina" class="pt-1">
+    <div class="container">      
+          <div class="row">
+            <div class="col-xl-12 text-center fs-1">
+              <a href="/" class="d-flex align-items-center link-dark text-decoration-none">
+              <svg class="bi" width="60" height="60">
+              <use xlink:href="#bootstrap" /></svg>
+              </a>
+              <a href="https://es-la.facebook.com/" class="bi bi-facebook text-secondary"></a>
+              <a href="https://web.whatsapp.com/" class="bi bi-whatsapp text-secondary"></a>
+              <a href="https://www.instagram.com/" class="bi bi-instagram text-secondary"></a>      
+              </div>
+            </div>
+          </div>   
+  
+        <div class="container">
+          <div class="row row-cols-5 py-3 my-3 border-top">
+            <div class="col">
+              <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <p class="text-muted">&copy; 2023</p>
+            </div>      
+            <div class="col">      
+            </div>
+        
+            <div class="col">
+              <h5>Equipo</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Copertino Sofia</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Campos Agustina</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cancinos Victoria</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Espel Wanda</a></li>
+                </ul>
+            </div>
+        
+            <div class="col">
+              <h5>Cursada</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Maquetado y desarrollo web</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Turno noche</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Comision</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Año 2023</a></li>
+              </ul>
+            </div>
+                      </div>
+            <div class="text-center pb-4 text-secondary">
+              <p>Copyrigth - All rights reserved © 2023</p>        
+            </div> 
+          </div>
+      </footer>
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+</body>
+
+
+</html>

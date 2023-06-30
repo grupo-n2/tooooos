@@ -1,0 +1,43 @@
+.navbar {
+background-color:aliceblue;
+}
+
+#beneficios{
+    background-color: #AF9FBC;
+}
+
+.card1 .card5 .card6{
+    /* background-color: #ffdc92; */
+    border-radius: 1%;
+}
+
+
+#aplicacion{
+    background-color: #c8aecc;
+}
+
+
+#comunidad{
+    background-color: #f4ebf6;
+}
+
+#piedepagina{
+    background-color: #DFF0F2;
+}
+
+#ofertas{
+    background-image: url(img/ofertasbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contacto{
+    background-color: #AF9FBC;
+    width: 100%;
+}
+
+#btn1:hover{
+    background-color: #c8aecc;
+}
+
